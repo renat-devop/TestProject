@@ -15,26 +15,26 @@
         android:id="@+id/mBottomNavigationView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:itemRippleColor="@color/white"
+        app:labelVisibilityMode="unlabeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:labelVisibilityMode="unlabeled"
-        app:itemRippleColor="@color/white"
         app:menu="@menu/bottom_menu" />
 
-<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
-<!--        android:id="@+id/mBottomNavigationView"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_margin="10dp"-->
-<!--        android:background="@drawable/shape"-->
-<!--        android:elevation="3dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:labelVisibilityMode="unlabeled"-->
-<!--        app:itemRippleColor="@color/white"-->
-<!--        app:menu="@menu/bottom_menu" />-->
-<!--    -->
-<!--    -->
+    <!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+    <!--        android:id="@+id/mBottomNavigationView"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        android:background="@drawable/shape"-->
+    <!--        android:elevation="3dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:labelVisibilityMode="unlabeled"-->
+    <!--        app:itemRippleColor="@color/white"-->
+    <!--        app:menu="@menu/bottom_menu" />-->
+    <!--    -->
+    <!--    -->
 </androidx.constraintlayout.widget.ConstraintLayout>
